@@ -38,6 +38,7 @@ def typeA(value, r1, r2, r3):
 
 # function for type B
 def typeB(value, r1, n):
+    n=12
     a = get_binary(n)
     machine_code = operation.get(value)
     i = 0
